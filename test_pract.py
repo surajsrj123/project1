@@ -31,10 +31,10 @@ rows = cursor.fetchall()
 # Print the result
 mydata = []
 for row in rows:
-    # print('id ====>',row[0])
-    # print('name ====>',row[1])
-    # print('salary ====>',row[2])
-    # print('department ====>',row[3])
+    print('id ====>',row[0])
+    print('name ====>',row[1])
+    print('salary ====>',row[2])
+    print('department ====>',row[3])
     item = {
         "id":row[0],
         "name":row[1],
